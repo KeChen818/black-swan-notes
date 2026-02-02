@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="main-with-sidebar">
+  {{ partial "sidebar-left.html" . }}
+  <article class="post-single">
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+    </header>
+    <div class="post-content">{{ .Content }}</div>
+  </article>
+</div>
+{{ end }}
