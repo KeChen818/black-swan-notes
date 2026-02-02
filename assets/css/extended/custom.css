@@ -1,12 +1,18 @@
-/* Global readability improvements (safe, minimal) */
+body { background-color: #102937; color: #d6c4b0; }
+
+h1, h2, h3 { color: #094044; letter-spacing: 0.3px; }
+
+.post-content h2 { border-bottom: 1px solid #12d454; padding-bottom: 0.3em; }
+
+a { color: #12d454; }
+a:hover { color: #f9744b; }
+
+blockquote { border-left: 3px solid #12d454; color: #c6c0b8; font-style: italic; padding-left: 0.6em; }
+
+/* 风险强调 */
+.risk-alert { color: #d84f2a; font-weight: 600; }
+
+/* preserve readable spacing */
 .post-content { line-height: 1.75; }
-
-/* Clearer section rhythm */
-.post-content h2 { margin-top: 1.6em; margin-bottom: 0.6em; letter-spacing: 0.2px; }
-
-/* Cleaner bullet spacing for category lists */
 .post-content ul { margin-top: 0.6em; margin-bottom: 1.0em; padding-left: 1.1em; }
 .post-content li { margin: 0.35em 0; }
-
-/* Slight emphasis for category labels */
-.post-content li strong { letter-spacing: 0.1px; }
