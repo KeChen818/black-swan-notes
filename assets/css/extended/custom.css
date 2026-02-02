@@ -1,9 +1,12 @@
-/* Slightly improve readability across pages */
+/* Global readability improvements (safe, minimal) */
 .post-content { line-height: 1.75; }
 
-/* Make headings feel more “knowledge system” than “blog” */
-.post-content h2 { margin-top: 1.6em; letter-spacing: 0.2px; }
+/* Clearer section rhythm */
+.post-content h2 { margin-top: 1.6em; margin-bottom: 0.6em; letter-spacing: 0.2px; }
 
-/* Clean list spacing for category bullets */
-.post-content ul { margin-top: 0.6em; margin-bottom: 1.0em; }
+/* Cleaner bullet spacing for category lists */
+.post-content ul { margin-top: 0.6em; margin-bottom: 1.0em; padding-left: 1.1em; }
 .post-content li { margin: 0.35em 0; }
+
+/* Slight emphasis for category labels */
+.post-content li strong { letter-spacing: 0.1px; }
