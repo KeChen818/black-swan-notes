@@ -1,16 +1,17 @@
-body { background-color: #102937; color: #d6c4b0; }
+body { background-color: #0E1116; color: #E6EAF0; }
 
-h1, h2, h3 { color: #094044; letter-spacing: 0.3px; }
+h1, h2, h3 { color: #C9D1D9; letter-spacing: 0.3px; }
 
-.post-content h2 { border-bottom: 1px solid #12d454; padding-bottom: 0.3em; }
+.post-content h2 { border-bottom: 1px solid #2F81F7; padding-bottom: 0.3em; }
 
-a { color: #12d454; }
-a:hover { color: #f9744b; }
+a { color: #58A6FF; }
 
-blockquote { border-left: 3px solid #12d454; color: #c6c0b8; font-style: italic; padding-left: 0.6em; }
+a:hover { color: #79C0FF; }
 
-/* 风险强调 */
-.risk-alert { color: #d84f2a; font-weight: 600; }
+blockquote { border-left: 3px solid #58A6FF; color: #9AA4B2; font-style: italic; padding-left: 0.6em; }
+
+/* 风险警示 */
+.risk-alert { color: #FF6A5C; font-weight: 600; }
 
 /* preserve readable spacing */
 .post-content { line-height: 1.75; }
