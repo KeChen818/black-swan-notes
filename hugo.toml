@@ -3,3 +3,36 @@ languageCode = "en-us"
 title = "Black Swan Notes"
 theme = "PaperMod"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  defaultTheme = "dark"
+  ShowToc = true
+  TocOpen = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+[menu]
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 10
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 20
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 40
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 50
