@@ -1,7 +1,8 @@
 ---
 title: "Counterparty Default Risk: Exposure Uncertainty and Contagion Beyond Contractual Losses"
 date: 2026-02-02T00:00:00+00:00
-tags: ["counterparty-risk","credit-risk","risk","notes"]
+categories: ["Risk Knowledge & Frameworks"]
+tags: ["Counterparty Risk","Contagion"]
 draft: false
 summary: "Notes on counterparty default risk, exposure dynamics, and contagion mechanisms under stress."
 ---
@@ -44,14 +45,6 @@ Standard credit approaches may underestimate counterparty default risk because:
 - Netting and collateral assumptions can break down under stress
 
 Counterparty default risk thus behaves more like a systemically contingent factor than a simple bilateral credit loss.
-
----
-
-## Open Questions
-
-- How robust are exposure models under extreme but plausible market scenarios?
-- Can wrong-way risk be meaningfully captured, or only bounded?
-- Should counterparty concentration be treated as a systemic risk factor rather than a bilateral issue?
 
 ---
 

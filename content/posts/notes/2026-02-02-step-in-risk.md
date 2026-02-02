@@ -1,7 +1,8 @@
 ---
 title: "Step-In Risk: Implicit Support and the Breakdown of Legal Boundaries Under Stress"
 date: 2026-02-02T00:00:00+00:00
-tags: ["step-in-risk","risk","notes"]
+categories: ["Risk Knowledge & Frameworks"]
+tags: ["Step-In Risk","Contingent Liability"]
 draft: false
 summary: "Notes on how implicit support expectations can create contagious liabilities and governance challenges."
 ---
