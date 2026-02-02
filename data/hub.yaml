@@ -14,3 +14,7 @@ topics:
   - id: regulatory
     title: "Regulatory Signals"
     notes: []
+  - id: reading
+    title: "Reading & Reviews"
+    notes:
+      - "2026-02-02-reading-review"
