@@ -4,6 +4,7 @@ date: 2026-02-02T00:00:00+00:00
 categories: ["Risk Knowledge & Frameworks"]
 tags: ["Counterparty Risk","Contagion"]
 draft: false
+kind: "concept"
 summary: "Notes on counterparty default risk, exposure dynamics, and contagion mechanisms under stress."
 ---
 

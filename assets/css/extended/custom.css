@@ -35,3 +35,11 @@ hr { border-color: var(--border); }
 .sidebar-left a { text-decoration: none; }
 .sidebar-left a:hover { text-decoration: underline; }
 @media (max-width: 960px) { .main-with-sidebar { grid-template-columns: 1fr; } .sidebar-left { position: relative; height: auto; } }
+.notes-hub { padding: 8px 0; }
+.hub-section { margin-bottom: 1.8rem; }
+.hub-list { list-style:none; padding-left:0; }
+.hub-item { padding: 10px 12px; border-radius:8px; margin-bottom:8px; background: rgba(255,255,255,0.02); }
+.hub-item .meta { color: var(--muted); font-size:0.9rem; margin-top:6px }
+.summary { color: var(--muted); margin-top:6px }
+.filters { margin: 8px 0 18px; }
+.filters label { margin-right: 12px; color: var(--muted) }

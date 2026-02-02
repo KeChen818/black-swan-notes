@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="main-with-sidebar">
+  {{ partial "sidebar-left.html" . }}
+  <main class="notes-hub">
+    <header class="page-header">
+      <h1>Knowledge Hub — Notes</h1>
+      <div class="filters">
+        <label>Year:
+          <select id="filter-year"><option value="all">All</option></select>
+        </label>
+        <label>Type:
+          <select id="filter-kind"><option value="all">All</option><option value="concept">Concept</option><option value="event">Event</option><option value="regulatory">Regulatory</option>
+          </select>
+        </label>
+      </div>
+    </header>
+
+    {{ $data := .Site.Data.hub.topics }}
+    {{ range $section := $data }}
+      <section class="hub-section" id="topic-{{ $section.id }}">
+        <h2>{{ $section.title }}</h2>
+        <ul class="hub-list">
+        {{ range $name := $section.notes }}
+          {{ $p := site.GetPage (printf "posts/notes/%s" $name) }}
+          {{ if $p }}
+            <li class="hub-item" data-year="{{ ( $p.Date.Format "2006" ) }}" data-kind="{{ $p.Params.kind }}">
+              <a href="{{ $p.RelPermalink }}"><strong>{{ $p.Title }}</strong></a>
+              <div class="meta">{{ $p.Date.Format "2006-01-02" }} • {{ delimit $p.Params.tags ", " }}</div>
+              <p class="summary">{{ $p.Params.summary }}</p>
+            </li>
+          {{ else }}
+            <!-- missing -->
+          {{ end }}
+        {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+  </main>
+</div>
+<script src="/assets/js/notes-filter.js"></script>
+{{ end }}

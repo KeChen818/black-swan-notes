@@ -1,0 +1,16 @@
+topics:
+  - id: climate
+    title: "Climate & Transition Risk"
+    notes:
+      - "2026-02-02-climate-transition-risk"
+  - id: counterparty
+    title: "Counterparty & Contagion"
+    notes:
+      - "2026-02-02-counterparty-default-risk"
+  - id: stepin
+    title: "Step-in & Implicit Support"
+    notes:
+      - "2026-02-02-step-in-risk"
+  - id: regulatory
+    title: "Regulatory Signals"
+    notes: []

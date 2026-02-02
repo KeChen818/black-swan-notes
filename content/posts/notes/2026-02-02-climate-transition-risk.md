@@ -4,6 +4,7 @@ date: 2026-02-02T00:00:00+00:00
 categories: ["Risk Knowledge & Frameworks"]
 tags: ["Climate Risk","Transition Risk"]
 draft: false
+kind: "concept"
 summary: "Notes on how policy and market shifts drive transition risk through credit repricing and asset stranding."
 ---
 
