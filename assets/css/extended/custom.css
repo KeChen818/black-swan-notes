@@ -1,0 +1,9 @@
+/* Slightly improve readability across pages */
+.post-content { line-height: 1.75; }
+
+/* Make headings feel more “knowledge system” than “blog” */
+.post-content h2 { margin-top: 1.6em; letter-spacing: 0.2px; }
+
+/* Clean list spacing for category bullets */
+.post-content ul { margin-top: 0.6em; margin-bottom: 1.0em; }
+.post-content li { margin: 0.35em 0; }
