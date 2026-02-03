@@ -49,3 +49,50 @@ body { font-size: 15.5px; line-height: 1.65; }
   .main-with-sidebar { grid-template-columns: 1fr !important; padding: 12px !important; }
 }
 
+/* =========================================
+1) Replace ALL blue accents with orange
+========================================= */
+/* Global links */
+a { color: var(--accent) !important; }
+a:hover { color: var(--accent-2) !important; }
+/* Section underline / dividers (if any still blue) */
+.post-content h2, .post-content h3 { border-bottom-color: var(--accent) !important; }
+/* Table of contents / sidebar TOC links often use theme accent */
+.toc a, .sidebar-left a { color: var(--accent) !important; }
+.toc a:hover, .sidebar-left a:hover { color: var(--accent-2) !important; }
+/* Horizontal rules and subtle borders */
+hr { border-color: var(--border) !important; }
+/* If theme renders blue focus/outline, switch to orange */
+:focus-visible { outline-color: var(--accent) !important; }
+
+/* =========================================
+2) Fix About page + Sidebar color mismatch (Light + Dark compatible)
+========================================= */
+/* Define light/dark variables (works with PaperMod data-theme) */
+:root {
+  --bg-light: #ffffff;
+  --panel-light: #f6f7f9;
+  --text-light: #111827;
+  --muted-light: #4b5563;
+  --bg-dark: #0F1115;
+  --panel-dark: #161A21;
+  --text-dark: #E6E6E6;
+  --muted-dark: #A7AFBC;
+  /* Orange accents */
+  --accent: #F4A261;
+  --accent-2: #E76F51;
+  --border: #2A2F3A;
+}
+
+/* Dark mode */
+html[data-theme="dark"] body { background: var(--bg-dark) !important; color: var(--text-dark) !important; }
+html[data-theme="dark"] .sidebar-left, html[data-theme="dark"] .toc { background: var(--panel-dark) !important; color: var(--text-dark) !important; border-color: var(--border) !important; }
+html[data-theme="dark"] .sidebar-title, html[data-theme="dark"] .toc .toc-title { color: var(--muted-dark) !important; }
+
+/* Light mode */
+html[data-theme="light"] body { background: var(--bg-light) !important; color: var(--text-light) !important; }
+html[data-theme="light"] .sidebar-left, html[data-theme="light"] .toc { background: var(--panel-light) !important; color: var(--text-light) !important; border-color: rgba(17, 24, 39, 0.10) !important; }
+html[data-theme="light"] .sidebar-title, html[data-theme="light"] .toc .toc-title { color: var(--muted-light) !important; }
+
+/* About page: ensure post content inherits correct text color in both modes */
+.post-content { color: inherit !important; }
