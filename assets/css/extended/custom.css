@@ -30,3 +30,22 @@ blockquote{border-left:3px solid var(--accent);color:var(--muted);font-style:ita
 
 /* ensure min readable font on mobile */
 @media(max-width:480px){.post-content{font-size:15px;line-height:1.6}.main-with-sidebar{grid-template-columns:1fr}}
+/* Mobile-safe layout + readability tuning (requested) */
+
+/* 1) Desktop safe widening for large screens */
+@media (min-width: 1200px) {
+  .main { max-width: 1100px; margin: 0 auto; }
+  .main-with-sidebar { max-width: 1200px; }
+}
+
+/* 2) Subtle typography tuning */
+body { font-size: 15.5px; line-height: 1.65; }
+@media (min-width:900px){ body { font-size: 15px } }
+@media (max-width:600px){ body { font-size: 15.5px } }
+
+/* 3) Mobile sidebar hide to prevent overlap */
+@media (max-width: 768px) {
+  .sidebar-left, .sidebar { display: none !important; }
+  .main-with-sidebar { grid-template-columns: 1fr !important; padding: 12px !important; }
+}
+
