@@ -3,7 +3,6 @@ title: "Basel Framework: From Capital Adequacy to Risk Discipline"
 type: note
 tags: [basel, regulation, banking]
 draft: false
-kind: "regulation"
 summary: "Basel pillars and core insights"
 ---
 
