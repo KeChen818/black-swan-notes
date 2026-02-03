@@ -8,58 +8,39 @@
   </div>
 </header>
 
-{{ $hub := .Site.Data.hub }}
+{{ $sections := slice
+  "Historical Risk Events & Black Swan Thinking"
+  "Risk Taxonomy & Control Frameworks"
+  "Financial Products & Business Functions"
+  "Regulatory Guidance"
+  "Non-fiction Book Reviews"
+  "Quantification & Visualization Ideas"
+}}
 
-{{ if not $hub }}
-  {{/* Fallback: aggregate from content/notes by hub_section */}}
-  {{ $notes := where .Site.RegularPages "Section" "notes" }}
-  {{ $notes = where $notes "Params.hub_section" "ne" nil }}
-  {{ $sections := slice }}
-  {{ range $notes }}
-    {{ $sections = $sections | append .Params.hub_section }}
-  {{ end }}
-  {{ $sections = uniq $sections }}
-  <div class="hub-sections">
-    {{ range $sections }}
-      {{ $sec := . }}
-      <section class="hub-section" data-section="{{ $sec }}">
-        <h2 id="{{ anchorize $sec }}">{{ $sec }}</h2>
-        <div class="hub-list">
-          {{ range (where $notes "Params.hub_section" $sec) }}
-            {{ $y := .Date.Format "2006" }}
-            {{ $t := default "note" .Params.kind }}
+<div class="hub-sections">
+  {{ range $sec := $sections }}
+    <section class="hub-section" data-section="{{ $sec }}">
+      <h2 id="{{ anchorize $sec }}">{{ $sec }}</h2>
+      <div class="hub-list">
+        {{ $notes := where site.RegularPages "Section" "notes" }}
+        {{ $group := where $notes "Params.section" $sec }}
+        {{ if gt (len $group) 0 }}
+          {{ range $p := $group }}
+            {{ $y := $p.Date.Format "2006" }}
+            {{ $t := default "note" $p.Params.kind }}
             <article class="hub-item" data-year="{{ $y }}" data-kind="{{ $t }}">
-              <a class="hub-title" href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>
-              {{ with .Params.summary }}<div class="hub-summary">{{ . }}</div>{{ end }}
-              <div class="hub-meta"> <span>{{ .Date.Format "Jan 2, 2006" }}</span> <span class="dot">•</span> <span>{{ $t }}</span> </div>
+              <a class="hub-title" href="{{ $p.RelPermalink }}"><strong>{{ $p.Title }}</strong></a>
+              {{ with $p.Params.summary }}<div class="hub-summary">{{ . }}</div>{{ end }}
+              <div class="hub-meta"> <span>{{ $p.Date.Format "Jan 2, 2006" }}</span> <span class="dot">•</span> <span>{{ $t }}</span> </div>
             </article>
           {{ end }}
-        </div>
-      </section>
-    {{ end }}
-  </div>
-{{ else }}
-  <div class="hub-sections">
-    {{/* Data-driven hub rendering (existing logic) */}}
-    {{ range $section := $hub.topics }}
-      <section class="hub-section" id="topic-{{ $section.id }}">
-        <h2>{{ $section.title }}</h2>
-        <ul class="hub-list">
-        {{ range $name := $section.notes }}
-          {{ $p := site.GetPage (printf "notes/%s" $name) }}
-          {{ if $p }}
-            <li class="hub-item" data-year="{{ ( $p.Date.Format "2006" ) }}" data-kind="{{ $p.Params.kind }}">
-              <a href="{{ $p.RelPermalink }}"><strong>{{ $p.Title }}</strong></a>
-              <div class="meta">{{ $p.Date.Format "2006-01-02" }} • {{ with $p.Params.tags }}{{ delimit . ", " }}{{ end }}</div>
-              <p class="summary">{{ $p.Params.summary }}</p>
-            </li>
-          {{ end }}
+        {{ else }}
+          <p class="muted">No items yet.</p>
         {{ end }}
-        </ul>
-      </section>
-    {{ end }}
-  </div>
-{{ end }}
+      </div>
+    </section>
+  {{ end }}
+</div>
 
 <script src="/assets/js/notes-filter.js"></script>
 {{- end -}}
