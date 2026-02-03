@@ -1,11 +1,14 @@
 ---
 title: "Counterparty Default Risk: Exposure Uncertainty and Contagion Beyond Contractual Losses"
-date: 2026-02-02T00:00:00+00:00
-categories: ["Risk Knowledge & Frameworks"]
+date: 2026-02-03T00:00:00+00:00
+categories: ["Financial Products & Business Functions"]
 tags: ["Counterparty Risk","Contagion"]
 draft: false
 summary: "Notes on counterparty default risk, exposure dynamics, and contagion mechanisms under stress."
+hub_section: "Financial Products & Business Functions"
+kind: "product"
 ---
+
 
 ## Context
 

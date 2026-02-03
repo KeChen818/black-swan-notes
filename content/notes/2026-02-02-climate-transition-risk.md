@@ -1,11 +1,14 @@
 ---
 title: "Climate Transition Risk: Policy-Driven Credit Repricing Rather Than a Gradual ESG Effect"
-date: 2026-02-02T00:00:00+00:00
-categories: ["Risk Knowledge & Frameworks"]
+date: 2026-02-03T00:00:00+00:00
+categories: ["Risk Taxonomy & Control Frameworks"]
 tags: ["Climate Risk","Transition Risk"]
 draft: false
 summary: "Notes on how policy and market shifts drive transition risk through credit repricing and asset stranding."
+hub_section: "Risk Taxonomy & Control Frameworks"
+kind: "concept"
 ---
+
 
 ## Climate Driver
 
