@@ -1,20 +1,17 @@
 topics:
-  - id: climate
-    title: "Climate & Transition Risk"
+  - id: historical
+    title: "Historical Risk Events & Black Swan Thinking"
     notes:
-      - "2026-02-02-climate-transition-risk"
-  - id: counterparty
-    title: "Counterparty & Contagion"
+      - "rcsa"
+      - "black-swan-book"
+  - id: taxonomy
+    title: "Risk Taxonomy & Control Frameworks"
     notes:
-      - "2026-02-02-counterparty-default-risk"
-  - id: stepin
-    title: "Step-in & Implicit Support"
+      - "basel"
+  - id: products
+    title: "Financial Products & Business Functions"
     notes:
-      - "2026-02-02-step-in-risk"
+      - "prime-broker"
   - id: regulatory
-    title: "Regulatory Signals"
+    title: "Regulatory Guidance"
     notes: []
-  - id: reading
-    title: "Reading & Reviews"
-    notes:
-      - "2026-02-02-reading-review"
