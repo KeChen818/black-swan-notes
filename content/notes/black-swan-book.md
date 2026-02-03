@@ -1,11 +1,13 @@
 ---
 title: "The Black Swan: Core Ideas and Risk Implications"
-tags: [black-swan, tail-risk, uncertainty]
-draft: false
-summary: "Key takeaways from Black Swan thinking"
 date: 2026-02-03T00:00:00+00:00
-kind: "concept"
+section: "Historical Risk Events & Black Swan Thinking"
+categories: ["Historical Risk Events & Black Swan Thinking"]
+tags: [black-swan, tail-risk, uncertainty]
 ---
+
+
+
 
 
 

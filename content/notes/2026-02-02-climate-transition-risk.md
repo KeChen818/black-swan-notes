@@ -1,13 +1,12 @@
 ---
 title: "Climate Transition Risk: Policy-Driven Credit Repricing Rather Than a Gradual ESG Effect"
 date: 2026-02-03T00:00:00+00:00
+section: "Risk Taxonomy & Control Frameworks"
 categories: ["Risk Taxonomy & Control Frameworks"]
 tags: ["Climate Risk","Transition Risk"]
-draft: false
-summary: "Notes on how policy and market shifts drive transition risk through credit repricing and asset stranding."
-hub_section: "Risk Taxonomy & Control Frameworks"
-kind: "concept"
 ---
+
+
 
 
 ## Climate Driver
@@ -17,8 +16,6 @@ kind: "concept"
 - Carbon pricing and emissions regulation
 - Mandatory disclosure and capital requirements
 - Rapid technological substitution (e.g., renewables vs fossil fuels)
-
----
 
 ## Risk Transmission
 
@@ -31,8 +28,6 @@ Transition risk primarily enters the risk framework through credit and valuation
 
 Importantly, these effects tend to be non-linear and policy-driven rather than gradually priced in.
 
----
-
 ## Time Horizon
 
 Transition risk does not follow a smooth long-term horizon.
@@ -42,8 +37,6 @@ Transition risk does not follow a smooth long-term horizon.
 - Long term: structural decline of carbon-intensive business models
 
 Risk materialisation often occurs through policy-triggered repricing rather than slow deterioration.
-
----
 
 ## Why It Matters
 
@@ -55,15 +48,11 @@ Traditional risk models often underestimate transition risk because:
 
 As a result, transition risk behaves more like an abrupt policy shock than a conventional cyclical risk factor.
 
----
-
 ## Open Questions
 
 - How should banks distinguish between transitional stress and permanent credit impairment?
 - Can scenario analysis meaningfully inform capital decisions, or is it primarily a governance tool?
 - How should risk appetite frameworks reflect policy uncertainty rather than climate outcomes?
-
----
 
 ## Sources
 

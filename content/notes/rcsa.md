@@ -1,9 +1,13 @@
 ---
 title: "RCSA — Risk and Control Self-Assessment"
 date: 2026-02-03T00:00:00+00:00
-hub_section: "Risk Taxonomy & Control Frameworks"
+section: "Risk Taxonomy & Control Frameworks"
 categories: ["Risk Taxonomy & Control Frameworks"]
 tags: ["example","note"]
+---
+
+
+
 kind: "concept"
 ---
 

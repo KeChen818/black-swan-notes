@@ -1,11 +1,13 @@
 ---
 title: "Prime Brokerage: Hidden Leverage and Counterparty Risk"
-tags: [prime-brokerage, counterparty-risk, leverage]
-draft: false
-summary: "Prime broker risk concentration and leverage"
 date: 2026-02-03T00:00:00+00:00
-kind: "concept"
+section: "Historical Risk Events & Black Swan Thinking"
+categories: ["Historical Risk Events & Black Swan Thinking"]
+tags: [prime-brokerage, counterparty-risk, leverage]
 ---
+
+
+
 
 
 

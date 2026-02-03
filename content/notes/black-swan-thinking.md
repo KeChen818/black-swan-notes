@@ -1,9 +1,14 @@
 ---
 title: "Black Swan Thinking — Fragility, Uncertainty, and Risk Blind Spots"
 date: 2026-02-03T00:00:00+00:00
-hub_section: "Historical Risk Events & Black Swan Thinking"
+section: "Historical Risk Events & Black Swan Thinking"
 categories: ["Historical Risk Events & Black Swan Thinking"]
 tags: ["example","note"]
+hub_section: "Historical Risk Events & Black Swan Thinking"
+---
+
+
+
 kind: "concept"
 ---
 

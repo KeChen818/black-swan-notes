@@ -1,20 +1,16 @@
 ---
 title: "Counterparty Default Risk: Exposure Uncertainty and Contagion Beyond Contractual Losses"
-date: 2026-02-03T00:00:00+00:00
+date: 2026-02-02
 categories: ["Financial Products & Business Functions"]
 tags: ["Counterparty Risk","Contagion"]
-draft: false
 summary: "Notes on counterparty default risk, exposure dynamics, and contagion mechanisms under stress."
 hub_section: "Financial Products & Business Functions"
-kind: "product"
+draft: false
 ---
-
 
 ## Context
 
 Counterparty default risk refers to the risk of loss arising from a counterparty's failure to meet contractual obligations. It is often embedded in derivatives, securities financing, and guarantees and is characterised by exposure uncertainty, particularly under stressed market conditions.
-
----
 
 ## Risk Transmission
 
@@ -27,8 +23,6 @@ Counterparty default risk propagates through the financial system via:
 
 Losses therefore depend not only on default probability but on market conditions at the time of default.
 
----
-
 ## Time Horizon
 
 Counterparty default risk is state-dependent and often materialises abruptly.
@@ -36,8 +30,6 @@ Counterparty default risk is state-dependent and often materialises abruptly.
 - Normal conditions: exposure appears well-collateralised and manageable.
 - Stress periods: rapid exposure growth and collateral shortfalls.
 - Post-default: legal, settlement, and replacement risks dominate realised losses.
-
----
 
 ## Why It Matters
 
@@ -48,8 +40,6 @@ Standard credit approaches may underestimate counterparty default risk because:
 - Netting and collateral assumptions can break down under stress
 
 Counterparty default risk thus behaves more like a systemically contingent factor than a simple bilateral credit loss.
-
----
 
 ## Sources
 

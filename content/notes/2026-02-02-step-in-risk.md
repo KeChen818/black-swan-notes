@@ -1,41 +1,13 @@
 ---
 title: "Step-In Risk: Implicit Support and the Breakdown of Legal Boundaries Under Stress"
 date: 2026-02-03T00:00:00+00:00
+section: "Historical Risk Events & Black Swan Thinking"
 categories: ["Historical Risk Events & Black Swan Thinking"]
 tags: ["Step-In Risk","Contingent Liability"]
-draft: false
-summary: "Notes on how implicit support expectations can create contagious liabilities and governance challenges."
-hub_section: "Historical Risk Events & Black Swan Thinking"
-kind: "concept"
 ---
 
 
-## Context
 
-Step-in risk refers to the chance that a financial institution provides financial or non-financial support to an entity beyond contractual obligations, typically under stress. This often arises in structures intended to be legally remote—such as sponsored vehicles, funds, or affiliates—where market expectations, reputational concerns, or strategic interests create pressure to intervene.
-
----
-
-## Risk Transmission
-
-Step-in risk enters the risk framework through contagion and boundary erosion rather than explicit exposures. Key transmission channels include:
-
-1. Implicit guarantees: market participants assume support despite the absence of contractual obligations.
-2. Failure to provide support may damage franchise value or market access.
-3. Liquidity stress propagation: support may take the form of liquidity provision during market dislocation.
-4. Capital impact: unexpected support can weaken capital ratios and risk appetite.
-
-Crucially, step-in risk materialises during stress and can be discontinuous.
-
----
-
-## Time Horizon
-
-Step-in risk is typically latent during normal conditions and becomes relevant only under stress.
-
-- Normal times: no observable exposure; risk remains off-balance-sheet.
-- Stress events: rapid escalation due to market or client expectations.
-- Post-stress: structural reassessment of boundaries and governance.
 
 ---
 
