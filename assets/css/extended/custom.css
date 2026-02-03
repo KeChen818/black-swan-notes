@@ -96,3 +96,33 @@ html[data-theme="light"] .sidebar-title, html[data-theme="light"] .toc .toc-titl
 
 /* About page: ensure post content inherits correct text color in both modes */
 .post-content { color: inherit !important; }
+/* Typography refinement + light-mode color tuning */
+
+/* 1) Typography: font family */
+body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+
+/* 1) Reduce heading sizes (global) */
+h1 { font-size: 1.6rem !important; }
+h2 { font-size: 1.35rem !important; }
+h3 { font-size: 1.15rem !important; }
+h4 { font-size: 1rem !important; }
+
+/* 2) Remove horizontal divider under page titles in post content */
+.post-content h1, .post-content h2 { border-bottom: none !important; padding-bottom: 0 !important; }
+
+/* 3) Light mode: deep gray text */
+html[data-theme="light"] body, html[data-theme="light"] .post-content, html[data-theme="light"] .page-content { color: #1f2933 !important; }
+
+/* 4) Light mode: Categories & Tags as light-gray pills */
+html[data-theme="light"] .terms-tags a, html[data-theme="light"] .terms-categories a, html[data-theme="light"] .tag-entry a {
+  background-color: #f1f3f5 !important;
+  color: #374151 !important;
+  border: 1px solid #e5e7eb !important;
+  padding: 0.18em 0.45em;
+  border-radius: 6px;
+  font-size: 0.88em;
+}
+html[data-theme="light"] .terms-tags a:hover, html[data-theme="light"] .terms-categories a:hover, html[data-theme="light"] .tag-entry a:hover {
+  background-color: #e5e7eb !important;
+  color: #1f2933 !important;
+}
