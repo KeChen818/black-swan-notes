@@ -3,8 +3,10 @@ title: "Prime Brokerage: Hidden Leverage and Counterparty Risk"
 type: note
 tags: [prime-brokerage, counterparty-risk, leverage]
 draft: false
+kind: "product"
 summary: "Prime broker risk concentration and leverage"
 ---
+
 
 ## What Prime Brokers Do
 

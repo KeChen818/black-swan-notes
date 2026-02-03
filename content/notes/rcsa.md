@@ -3,8 +3,10 @@ title: "RCSA: Risk and Control Self-Assessment"
 type: note
 tags: [risk-framework, operational-risk, governance]
 draft: false
+kind: "framework"
 summary: "RCSA overview and limitations"
 ---
+
 
 ## What is RCSA
 

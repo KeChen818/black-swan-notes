@@ -3,8 +3,10 @@ title: "The Black Swan: Core Ideas and Risk Implications"
 type: note
 tags: [black-swan, tail-risk, uncertainty]
 draft: false
+kind: "framework"
 summary: "Key takeaways from Black Swan thinking"
 ---
+
 
 ## Central Thesis
 
